@@ -24,9 +24,9 @@ Telegram-бот на базе искусственного интеллекта 
 2. **Создайте и активируйте виртуальное окружение:**
     code
     python -m venv venv
-    # Windows:
+    *Windows:*
     .\venv\Scripts\activate
-    # Linux/macOS:
+    *Linux/macOS:*
     source venv/bin/activate
 
 3. **Установите зависимости:**
