@@ -24,17 +24,19 @@ Telegram-бот на базе искусственного интеллекта 
 2. **Создайте и активируйте виртуальное окружение:**
     code
     python -m venv venv
+
     *Windows:*
     .\venv\Scripts\activate
+
     *Linux/macOS:*
     source venv/bin/activate
 
-3. **Установите зависимости:**
+4. **Установите зависимости:**
     pip install -r requirements.txt
 
-4. **Создайте файл .env в корне проекта:**
+5. **Создайте файл .env в корне проекта:**
     BOT_TOKEN=ваш_токен_от_botfather
     GIGACHAT_CREDENTIALS=ваши_авторизационные_данные_gigachat
 
-5. **Запустите бота:**
+6. **Запустите бота:**
     python bot.py
